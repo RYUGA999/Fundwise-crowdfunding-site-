@@ -25,7 +25,7 @@ const sslOptions = {
   cert: fs.readFileSync(path.join(__dirname, './certs/server.crt'))
 };
 
-// Enable CORS
+
 app.use(cors({
   origin: 'https://localhost:3000',
   credentials: true
